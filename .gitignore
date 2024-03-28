@@ -4,3 +4,8 @@
 # Vim
 *.swp
 
+# Cadence
+cad/*.log
+cad/*.history
+cad/*.cdslck
+

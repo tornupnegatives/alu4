@@ -1,0 +1,6 @@
+# File Created by Nicole Catherine Miller,,, at Tue Feb 27 21:06:16 2024
+# assisted by CdsLibEditor
+DEFINE rfLib $(inst_root_with:tools/dfII/bin/virtuoso)/tools/dfII/samples/artist/rfLib
+DEFINE US_8ths $(inst_root_with:tools/dfII/bin/virtuoso)/tools/dfII/etc/cdslib/sheets/US_8ths
+INCLUDE /home/sky130_release_0.0.1/cds.lib
+DEFINE std_cells ./std_cells
