@@ -9,3 +9,5 @@ cad/*.log
 cad/*.history
 cad/*.cdslck
 
+# Project
+build/
