@@ -1,18 +1,17 @@
-// Description: 2-to-1 XOR gate
+// Description: 2-to-1 OR gate
 // Author: Caleb Cooke
 
 `default_nettype wire
 
-module xor1 (
+module or2 (
     input  a,
     input  b,
     output out
 );
 
-    nand (x, a, b);
-    nand (y, a, x);
-    nand (z, x, b);
-    nand (out, y, z);
+    not (a_n, a);
+    not (b_n, b);
+    nand (out, a_n, b_n);
 
 endmodule
 

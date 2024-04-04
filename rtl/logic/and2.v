@@ -3,7 +3,7 @@
 
 `default_nettype wire
 
-module and1 (
+module and2 (
     input  a,
     input  b,
     output out

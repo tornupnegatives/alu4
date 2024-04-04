@@ -11,31 +11,31 @@ module add1 (
     output carry_out
 );
 
-    xor1 x0 (
+    xor2 x0 (
         .a,
         .b,
         .out(x0out)
     );
 
-    xor1 x1 (
+    xor2 x1 (
         .a(cin),
         .b(x0out),
         .out
     );
 
-    and1 a0 (
+    and2 a0 (
         .a,
         .b,
         .out(a0out)
     );
 
-    and1 a1 (
+    and2 a1 (
         .a(x0out),
         .b(cin),
         .out(a1out)
     );
 
-    or1 o0 (
+    or2 o0 (
         .a(a1out),
         .b(a0out),
         .out(cout)

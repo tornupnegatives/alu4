@@ -43,7 +43,7 @@ module alu1 (
     // LOGIC UNITS
     ////////////////////////////////////////////////////////////////////////////
 
-    and1 and1_ (
+    and2 and2_ (
         .a  (a),
         .b  (b),
         .out(and_out)
@@ -54,13 +54,13 @@ module alu1 (
         .out(not_out)
     );
 
-    or1 or1_ (
+    or2 or2_ (
         .a  (a),
         .b  (b),
         .out(or_out)
     );
 
-    xor1 xor1_ (
+    xor2 xor2_ (
         .a  (a),
         .b  (b),
         .out(xor_out)
