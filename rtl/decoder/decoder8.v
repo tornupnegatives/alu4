@@ -17,6 +17,7 @@ module decoder8 (
         .select(select[1:0]),
         .out(out[3:0])
     );
+
     decoder4 decoder_b (
         .enable(enable_b),
         .select(select[1:0]),

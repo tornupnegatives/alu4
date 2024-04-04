@@ -3,11 +3,17 @@ SIM_FLAGS=-g2012
 
 BUILD=build
 
-decoder4: rtl/decoder4.sv test/decoder4_tb.sv build
+decoder4: rtl/decoder/decoder4.v test/decoder/decoder4_tb.sv build
 	$(SIM) $(SIM_FLAGS) -o $(BUILD)/$@_test $^
 	./$(BUILD)/$@_test
 
-decoder8: rtl/decoder4.sv rtl/decoder8.sv test/decoder8_tb.sv build
+decoder8: rtl/decoder/decoder4.v rtl/decoder/decoder8.v \
+	test/decoder/decoder8_tb.sv build
+	$(SIM) $(SIM_FLAGS) -o $(BUILD)/$@_test $^
+	./$(BUILD)/$@_test
+
+alu1: rtl/arithmetic/*.v rtl/decoder/*.v rtl/logic/*.v rtl/alu1.v \
+	test/alu1_tb.sv build
 	$(SIM) $(SIM_FLAGS) -o $(BUILD)/$@_test $^
 	./$(BUILD)/$@_test
 
