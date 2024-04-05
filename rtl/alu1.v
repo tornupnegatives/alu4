@@ -58,7 +58,7 @@ module alu1 (
             not_out,
             or_out,
             xor_out,
-            1'b0,              // add_out,
+            add_out,
             1'b0,              // sub_out,
             1'b0,              // transfer_out,
             1'b0               // test_out
