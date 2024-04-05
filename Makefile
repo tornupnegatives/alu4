@@ -3,7 +3,7 @@ SIM_FLAGS=-g2012
 
 BUILD=build
 
-add1: rtl/arithmetic/*.v rtl/logic/*.v test/add1/add1_tb.sv build
+add1: rtl/arithmetic/*.v rtl/logic/*.v test/arithmetic/add1_tb.sv build
 	$(SIM) $(SIM_FLAGS) -o $(BUILD)/$@_test $^
 	./$(BUILD)/$@_test
 
