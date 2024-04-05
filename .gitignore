@@ -12,6 +12,7 @@ cad/*.state
 cad/*.dm
 cad/lvs/
 cad/drc/
+cad/lab0_nm/
 
 # Project
 build/
