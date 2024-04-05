@@ -1,0 +1,24 @@
+Pegasus 21.32-s016 IVSebxpKz3Jj1V3WvyiObA 2024-04-04 17:52:50 3016401 silo-rhel.luddy.indiana.edu
+Copyright 2022 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+INFO:    Command Line Options: --dp 8 -top_cell and2 -ui_data --control /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/pegasusdrcctl /l/sky130_release_0.0.1/Sky130_DRC/sky130_rev_0.0_1.0.drc.pvl
+INFO:    Launch host CPU: Model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, OS: , Logical cores: 48, Physical cores: 24, Cache: 30720 KB, CPU Speed: 3300 MHz
+         Launch host Memory: MemTotal: 257305 MB,  MemFree: 6835 MB,  SwapTotal: 4095 MB,  SwapFree: 4059 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 240 MB
+INFO:    Current path: /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc
+INFO:    Run directory same as current path
+INFO:    Log directory: /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/pegasus-1712267570-silo-rhel.luddy.indiana.edu-3016401
+INFO:    PVL parsing results:
+ERROR:   There are no rules to execute in given rule file.
+INFO:    See /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/pegasus-1712267570-silo-rhel.luddy.indiana.edu-3016401/pvl.log for additional details
+INFO:    Resource usage by worker at exit:
+                  CPU      Elapsed  Threads    CPU       Peak Total  Peak Active
+         Worker:  time[s]  time[s]  Allocated  usage[%]  Memory[MB]  Memory[MB]
+              1:        0        0          4      0.00           0            0
+              2:        0        0          4      0.00           0            0
+         Worker resource usage  summary: Total CPU[s]: 0  Run duration[s]: 2  Max peak memory[MB]: 0
+         Worker CPU utilization summary: 0 of 0 available CPU seconds (0.00%) with 0 average available CPUs
+INFO:    Checking in all SoftShare licenses.
+INFO:    Manager summary: CPU(s): 0  Elapsed(s): 2  Peak memory(MB): 171
+
+Pegasus finished abnormally with exit code 3 -- see above for earlier errors. 2024-04-04 17:52:53

@@ -1,0 +1,59 @@
+
+
+***********************************************************
+* CDL produced by pvsBuildNetlist on Apr  4 22:34:31 2024 *
+***********************************************************
+
+
+*pvsViewList = auLvs schematic cmos_sch
+*pvsStopList = ("auLvs")
+*pvsSimName  = auLvs
+
+
+
+*.EXPAND_ON_M_FACTOR
+*.MEGA
+
+*.GLOBAL
++  vdd!
++  gnd!
+
+
+
+
+* IGNORE_DUP_WARN
+.subckt gnd gnd!
+*PVSCELL netlisted from basic gnd schematic
+*.generic no
+.ends gnd
+
+
+* IGNORE_DUP_WARN
+.subckt vdd vdd!
+*PVSCELL netlisted from basic vdd schematic
+*.generic no
+.ends vdd
+
+
+.subckt nand2 a b y
+*PVSCELL netlisted from std_cells nand2 cmos_sch
+  MNM0 y b mid gnd! nfet_01v8 m=1 l=150n w=780n
+  MNM2 mid a gnd! gnd! nfet_01v8 m=1 l=150n w=780n
+  MPM1 y b vdd! vdd! pfet_01v8 m=1 l=150n w=780n
+  MPM2 y a vdd! vdd! pfet_01v8 m=1 l=150n w=780n
+.ends nand2
+
+
+.subckt xor2 a b y
+*PVSCELL netlisted from std_cells xor2 schematic
+  XI0 nand2 $PINS a=b b=b y=net1
+  XI1 nand2 $PINS a=a b=a y=net2
+  XI2 nand2 $PINS a=a b=net1 y=net3
+  XI3 nand2 $PINS a=net2 b=b y=net4
+  XI4 nand2 $PINS a=net3 b=net4 y=y
+.ends xor2
+
+
+***********************************************************
+*             Completed at Apr  4 22:34:31 2024           *
+***********************************************************

@@ -1,0 +1,63 @@
+
+
+***********************************************************
+* CDL produced by pvsBuildNetlist on Apr  4 22:31:09 2024 *
+***********************************************************
+
+
+*pvsViewList = auLvs schematic cmos_sch
+*pvsStopList = ("auLvs")
+*pvsSimName  = auLvs
+
+
+
+*.EXPAND_ON_M_FACTOR
+*.MEGA
+
+*.GLOBAL
++  vdd!
++  gnd!
+
+
+
+
+* IGNORE_DUP_WARN
+.subckt gnd gnd!
+*PVSCELL netlisted from basic gnd schematic
+*.generic no
+.ends gnd
+
+
+* IGNORE_DUP_WARN
+.subckt vdd vdd!
+*PVSCELL netlisted from basic vdd schematic
+*.generic no
+.ends vdd
+
+
+.subckt nand2 a b y
+*PVSCELL netlisted from std_cells nand2 cmos_sch
+  MNM0 y b mid gnd! nfet_01v8 m=1 l=150n w=780n
+  MNM2 mid a gnd! gnd! nfet_01v8 m=1 l=150n w=780n
+  MPM1 y b vdd! vdd! pfet_01v8 m=1 l=150n w=780n
+  MPM2 y a vdd! vdd! pfet_01v8 m=1 l=150n w=780n
+.ends nand2
+
+
+.subckt inv1 a y
+*PVSCELL netlisted from std_cells inv1 schematic
+  MNM1 y a gnd! gnd! nfet_01v8 m=1 l=150n w=520n
+  MPM0 y a vdd! vdd! pfet_01v8 m=1 l=150n w=1.66u
+.ends inv1
+
+
+.subckt and2 ain bin yout
+*PVSCELL netlisted from std_cells and2 schematic
+  XI5 inv1 $PINS a=o1 y=yout
+  XI0 nand2 $PINS a=ain b=bin y=o1
+.ends and2
+
+
+***********************************************************
+*             Completed at Apr  4 22:31:09 2024           *
+***********************************************************

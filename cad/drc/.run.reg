@@ -1,0 +1,62 @@
+# This Pegasus GUI File Index Registry was created automatically
+# Do not attempt to modify this file as any change may lead
+# to Pegasus GUI Tools malfunction.
+# 
+"Run Directory" internal none /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc
+"Current Directory" internal none /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad
+"Cadence Directory" internal none /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/.cadence/
+"Job Signature" internal none IPVS_1712284457_3030547
+"Pegasus Job Mode" internal none drc
+"GUI Flow" internal none virtuoso6
+"GUI Preset" internal none /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/.preset.autosave
+"Pegasus Version" internal none 21.32-s016
+"Binary Name" internal none pegasusgui
+"Pegasus Build Date" internal none "Wed Nov 9 21:23:04 PST 2022"
+"Pegasus Job Time" internal none 1712284459
+"DFII version" internal none 6.1.8.0
+"Run Directory" internal none /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc
+"Pegasus Job Mode" internal none drc
+"Rule File" input text /l/sky130_release_0.0.1/Sky130_DRC/sky130_rev_0.0_1.0.drc.pvl
+"Cell Tree" output text /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/cell_tree.txt
+"Layout Scale" internal none 0.001
+"Layout TechLib" internal none sky130_fd_pr_main
+"Layout Library Name" internal none std_cells
+"Layout Cell Name" internal none xor2
+"Layout View Name" internal none layout
+"Layout ConvertPin" internal text geometry
+"Layout HierDepth" internal none 32
+"Layout MaxVertices" internal none 2048
+"Layout Top Cell" internal none xor2
+"Layout GDSII" input none /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/xor2.gds.gz
+"Intermediate GDSII File" output none /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/xor2.gds.gz
+"Intermediate GDSII File creation Errors" internal text /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/PIPO1.LOG
+"Intermediate OASIS File creation Errors" internal text /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/PIPO1.LOG
+"Layout ReplaceBusBitChar" input none nil
+"Layout NoConvertHalfWidthPath" input none nil
+"Job Signature" internal none IPVS_1712284457_3030547
+"Do not check rules files before run" internal none ENABLED
+DP internal none 8
+"Control File" input text /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/pegasusdrcctl
+"Pegasus Job Log" log text /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/pegasusuidrc.log
+"It is Pegasus flow" internal none ENABLED
+"PIPO Setup File I" internal text  /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/pipo1.setup
+"PIPO Log I" log text  /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/PIPO1.LOG
+"PIPO Output I" internal text  /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/PIPO1.OUT
+"Input Layout" input none OA: std_cells xor2 layout
+"Output Layout Cellmap I" internal text /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/lay_cellMap.txt
+"Pegasus Version" internal none 21.32-s016
+"Binary Name" internal none pegasusvirt
+"Pegasus Build Date" internal none "Wed Nov 9 21:23:04 PST 2022"
+"Pegasus Job Time" internal none 1712284459
+"Pegasus Job Mode" internal none drc
+"Rule File" input text /l/sky130_release_0.0.1/Sky130_DRC/sky130_rev_0.0_1.0.drc.pvl
+"Layout GDSII" input none /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/xor2.gds.gz
+"DRC Summary" output text /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/xor2.sum
+"ASCII DRC Report Database" output rdb /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/xor2.drc_errors.ascii
+"Run Directory" internal none /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/
+"UI Data" internal none ENABLED
+"Report MaxResults" internal none 1000
+"Pegasus Version" internal none 21.32-s016
+"Binary Name" internal none Pegasus
+"Pegasus Build Date" internal none "Wed Nov 9 21:23:04 PST 2022"
+"Pegasus Job Time" internal none 1712284467

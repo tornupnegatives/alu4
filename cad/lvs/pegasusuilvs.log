@@ -1,0 +1,1496 @@
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+Running: /l/cadence/installs/PEGASUS213/tools.lnx86/Pegasus/bin/64bit/pegasusvirt \
+  -isPegasus \
+  -mode lvs \
+  -global_log_file /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/pegasusuilvs.log \
+  -control /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/pegasuslvsctl \
+  -df2_version 6.1.8.0 \
+  -run_dir /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs \
+  -no_rules_check \
+  -schLibName std_cells \
+  -schCellName xor2 \
+  -schViewName schematic \
+  -simViewList auLvs\ schematic\ cmos_sch \
+  -simStopList auLvs \
+  -source_cdl /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/xor2.cdl \
+  -source_top_cell xor2 \
+  -spice /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/xor2.spi \
+  -layLibName std_cells \
+  -layCellName xor2 \
+  -layViewName layout \
+  -igds /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/xor2.gds.gz \
+  -layScale 0.001 \
+  -layTechLib sky130_fd_pr_main \
+  -convertPin geometry \
+  -replaceBusBitChar nil \
+  -noConvertHalfWidthPath nil \
+  -layHierDepth 32 \
+  -layMaxVertices 2048 \
+  -rulesFile /l/sky130_release_0.0.1/Sky130_LVS/Sky130_rev_0.0_0.1.lvs.pvl \
+  -dp 8
+
+
+
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.06s.
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 10/11/2023 09:46 (sjfhw317) $
+          : sub-version  IC6.1.8-64b.500.34 
+Started at: 04-Apr-2024  22:34:32
+User Name : ncm1
+Host Name : silo-rhel.luddy.indiana.edu
+Directory : /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+Loading sky130_fd_pr_main/libInit.il ...
+	Loading sky130_fd_pr_main/loadCxt.ile ... done!
+	Loading context 'sky130_fd_pr_main' from library 'sky130_fd_pr_main' ... done!
+	Loading context 'pdkUtils' from library 'sky130_fd_pr_main' ... done!
+	Loading sky130_fd_pr_main/libInitCktPro.il ... done!
+	Loading sky130_fd_pr_main/libInitCustomExit.il ... 	Loading Environment Settings ...
+done!
+Loaded sky130_fd_pr_main/libInit.il successfully!
+WARNING (XSTRM-20): Output Stream file '/nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/xor2.gds.gz' already exists. It will be overwritten.
+INFO (XSTRM-217): Reading the layer map file, /home/sky130_release_0.0.1/libs/sky130_fd_pr_main/sky130_fd_pr_main.layermap
+INFO (XSTRM-280): The output file will be a compressed file because the file name has extension .gz
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 std_cells
+strmFile                                /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/xor2.gds.gz
+topCell                                 xor2
+view                                    layout
+runDir                                  /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs
+logFile                                 /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/PIPO1.LOG
+techLib                                 sky130_fd_pr_main
+hierDepth                               32
+maxVertices                             2048
+layerMap                                /home/sky130_release_0.0.1/libs/sky130_fd_pr_main/sky130_fd_pr_main.layermap
+userSkillFile                           /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/strmout.il
+labelDepth                              32
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_1.
+INFO (XSTRM-223): 2. Translating customVia sky130_fd_pr_main/polyConn/layout as STRUCTURE polyConn_CDNS_2.
+INFO (XSTRM-223): 3. Translating customVia sky130_fd_pr_main/nwellTap/layout as STRUCTURE nwellTap_CDNS_3.
+INFO (XSTRM-223): 4. Translating customVia sky130_fd_pr_main/subTap/layout as STRUCTURE subTap_CDNS_4.
+INFO (XSTRM-223): 5. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_5.
+INFO (XSTRM-223): 6. Translating cellView sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_6.
+INFO (XSTRM-223): 7. Translating cellView sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7.
+INFO (XSTRM-223): 8. Translating cellView sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_8.
+INFO (XSTRM-223): 9. Translating cellView sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_9.
+INFO (XSTRM-223): 10. Translating cellView std_cells/nand2/layout as STRUCTURE nand2.
+INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
+INFO (XSTRM-223): 11. Translating cellView std_cells/xor2/layout as STRUCTURE xor2.
+
+Summary of Objects Translated:
+	Scalar Instances:                       9
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             135
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           20
+	Custom Vias:                            4
+	CdsGen Vias:                            0
+	Pathsegs:                               6
+	Text:                                   10
+	TextDisplay:                            0
+	Cells:                                  11
+
+Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 6508KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+
+
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+Pegasus 21.32-s016 IVSebxpKz3Jj1V3WvyiObA 2024-04-04 22:34:32 3055090 silo-rhel.luddy.indiana.edu
+Copyright 2022 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+INFO:    Command Line Options: -lvs -top_cell xor2 -source_top_cell xor2 -spice /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/xor2.spi -control /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/pegasuslvsctl -ui_data -gdb_data -dp 8 /l/sky130_release_0.0.1/Sky130_LVS/Sky130_rev_0.0_0.1.lvs.pvl
+INFO:    Launch host CPU: Model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, OS: , Logical cores: 48, Physical cores: 24, Cache: 30720 KB, CPU Speed: 3300 MHz
+         Launch host Memory: MemTotal: 257305 MB,  MemFree: 7215 MB,  SwapTotal: 4095 MB,  SwapFree: 4059 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 240 MB
+INFO:    Current path: /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs
+INFO:    Run directory same as current path
+INFO:    Log directory: /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/pegasus-1712284472-silo-rhel.luddy.indiana.edu-3055090
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+INFO:    PVL parsing results:
+WARNING: LAYOUT_FORMAT at line 19 in file /l/sky130_release_0.0.1/Sky130_LVS/Sky130_rev_0.0_0.1.lvs.pvl is skipped. It is set in control file.
+WARNING: LAYOUT_PATH at line 23 in file /l/sky130_release_0.0.1/Sky130_LVS/Sky130_rev_0.0_0.1.lvs.pvl is skipped. It is set in control file.
+WARNING: Cmd-line override: LAYOUT_PRIMARY "xor2";
+WARNING: REPORT_SUMMARY statement at line 31 in file /l/sky130_release_0.0.1/Sky130_LVS/Sky130_rev_0.0_0.1.lvs.pvl is ignored.
+       summary file has been specified as /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/xor2.sum
+WARNING: option -drc is skipped at line 35 in file /l/sky130_release_0.0.1/Sky130_LVS/Sky130_rev_0.0_0.1.lvs.pvl
+WARNING: MAX_RESULTS -erc at line 39 in file /l/sky130_release_0.0.1/Sky130_LVS/Sky130_rev_0.0_0.1.lvs.pvl is skipped. It is set in control file.
+WARNING: option -drc is skipped at line 43 in file /l/sky130_release_0.0.1/Sky130_LVS/Sky130_rev_0.0_0.1.lvs.pvl
+WARNING: ABORT_ON_LAYOUT_ERROR at line 47 in file /l/sky130_release_0.0.1/Sky130_LVS/Sky130_rev_0.0_0.1.lvs.pvl is skipped. It is set in control file.
+WARNING: TEXT_DEPTH at line 49 in file /l/sky130_release_0.0.1/Sky130_LVS/Sky130_rev_0.0_0.1.lvs.pvl is skipped. It is set in control file.
+
+INFO:    See "/nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/pegasus-1712284472-silo-rhel.luddy.indiana.edu-3055090/pvl.log" for additional details.
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_LVS' version 21.3
+INFO:    License checkout successful ... 2024-04-04 22:34:37
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_16nm' version 21.3
+INFO:    License checkout successful ... 2024-04-04 22:34:37
+WARNING: Neither hcell nor -automatch option is specified.
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+/bin/sh: error importing function definition for `which'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+INFO:    LVS report file: /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/xor2.rep 
+INFO:    Extracted layout netlist: /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/xor2.spi 
+INFO:    Setting LAYOUT_PATH to: /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/xor2.gds.gz 
+INFO:    Setting LAYOUT_PRIMARY to: xor2 
+INFO:    Setting SCHEMATIC_PATH to: /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/xor2.cdl 
+INFO:    Setting SCHEMATIC_PRIMARY to: xor2 
+
+INFO:    Gdsii input summary
+         File name: /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/xor2.gds.gz
+         File size: 2169
+         Version: 5.0
+         Library name: std_cells
+         Last modified: 2024-4-4 18:31:38
+         Last accessed: 2024-4-4 22:34:32
+         Database unit in user units: 0.001
+         Database unit in meters: 1e-09
+         Magnification: 1 
+
+INFO:    Cell Summary:
+         ----------------------------------------------------------------------------
+             CELL                INSTANCE    GEOMETRY      LABELS        HREF        FREF
+         ----------------------------------------------------------------------------
+         M1M2_C_CDNS_1                  0           3           0          19          19
+         polyConn_CDNS_2                0           5           0           2          10
+         nwellTap_CDNS_3                0           9           0           1           5
+         subTap_CDNS_4                  0           8           0           1           5
+         L1M1_C_CDNS_5                  0           3           0           1           5
+         pfet_01v8_CDNS_6               0          13           0           1           5
+         nfet_01v8_CDNS_7               0          12           0           1           5
+         nfet_01v8_CDNS_8               0          12           0           1           5
+         pfet_01v8_CDNS_9               0          16           0           1           5
+         nand2                          9          34           5           5           5
+         xor2                          24          25           5           1           1
+         ----------------------------------------------------------------------------
+         TOTAL CELL = 11;  INSTANCE = 33;  GEOMETRY = 140;  LABEL = 10
+
+INFO:    Layer Summary:
+         ----------------------------------------------------------------------------
+             LAYER                  ID       HPN      HTC        FPN       FTC
+         ----------------------------------------------------------------------------
+         diff                     1001        13         0        65         0
+         tap                      1003         4         0        20         0
+         nwell_in                 1004         5         0        21         0
+         hvtp                     1009         0         0         0         0
+         hvi                      1011         0         0         0         0
+         lvtn                     1013         0         0         0         0
+         poly                     1014        25         0       130         0
+         nsdm                     1017         5         0        25         0
+         psdm                     1018         5         0        21         0
+         licon1                   1022        18         0        95         0
+         li1_in                   1023        17         0        90         0
+         mcon                     1025         6         0        35         0
+         met1_in                  1026        28         0       103         0
+         via                      1028         1         0        19         0
+         met2_in                  1029        10         0        28         0
+         via2_in                  1031         0         0         0         0
+         met3_in                  1032         0         0         0         0
+         via3                     1034         0         0         0         0
+         met4_in                  1035         0         0         0         0
+         via4                     1037         0         0         0         0
+         met5_in                  1038         0         0         0         0
+         capm                     1043         0         0         0         0
+         areaid.sl                1055         0         0         0         0
+         areaid.hl                1081         0         0         0         0
+         diff_res                 1092         0         0         0         0
+         li1_label                1115         0         0         0         0
+         met1_label               1116         0        10         0        30
+         met2_label               1117         0         0         0         0
+         met3_label               1118         0         0         0         0
+         met4_label               1119         0         0         0         0
+         met5_label               1120         0         0         0         0
+         pwell_in                 1123         0         0         0         0
+         pwell_label              1124         0         0         0         0
+         nwell_label              1128         0         0         0         0
+         li1_pin                  1139         0         0         0         0
+         met1_pin                 1141         3         0        15         0
+         met2_pin                 1143         0         0         0         0
+         met3_pin                 1145         0         0         0         0
+         met4_pin                 1147         0         0         0         0
+         met5_pin                 1149         0         0         0         0
+         nwell_pin                1154         0         0         0         0
+         pwell_pin                1157         0         0         0         0
+         met1_res                 1265         0         0         0         0
+         met2_res                 1266         0         0         0         0
+         met3_res                 1267         0         0         0         0
+         met4_res                 1268         0         0         0         0
+         met5_res                 1269         0         0         0         0
+         ----------------------------------------------------------------------------
+
+INFO:    CHIP EXTENT: -5 -260 9715 6240
+
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: module: line 1: syntax error: unexpected end of file
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: error importing function definition for `switchml'
+sh: error importing function definition for `switchml'
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: error importing function definition for `which'
+sh: which: line 1: syntax error: unexpected end of file
+sh: which: line 1: syntax error: unexpected end of file
+sh: ml: line 1: syntax error: unexpected end of file
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: error importing function definition for `ml'
+sh: error importing function definition for `ml'
+sh: error importing function definition for `which'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: error importing function definition for `_module_raw'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: error importing function definition for `ml'
+sh: module: line 1: syntax error: unexpected end of file
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: error importing function definition for `switchml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: which: line 1: syntax error: unexpected end of file
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: error importing function definition for `switchml'
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: which: line 1: syntax error: unexpected end of file
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: error importing function definition for `which'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: error importing function definition for `switchml'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: error importing function definition for `_module_raw'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+/usr/bin/lsb_release: line 159: /nfs/nfs2/home/ncm1/.linuxbrew/bin/sed: No such file or directory
+/usr/bin/lsb_release: line 162: /nfs/nfs2/home/ncm1/.linuxbrew/bin/getopt: No such file or directory
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+/usr/bin/lsb_release: line 159: /nfs/nfs2/home/ncm1/.linuxbrew/bin/sed: No such file or directory
+/usr/bin/lsb_release: line 162: /nfs/nfs2/home/ncm1/.linuxbrew/bin/getopt: No such file or directory
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+/usr/bin/lsb_release: line 159: /nfs/nfs2/home/ncm1/.linuxbrew/bin/sed: No such file or directory
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+/usr/bin/lsb_release: line 162: /nfs/nfs2/home/ncm1/.linuxbrew/bin/getopt: No such file or directory
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/usr/bin/lsb_release: line 159: /nfs/nfs2/home/ncm1/.linuxbrew/bin/sed: No such file or directory
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+/usr/bin/lsb_release: line 159: /nfs/nfs2/home/ncm1/.linuxbrew/bin/sed: No such file or directory
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `switchml'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: error importing function definition for `switchml'
+/bin/sh: which: line 1: syntax error: unexpected end of file
+sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+sh: error importing function definition for `which'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+/bin/sh: error importing function definition for `ml'
+sh: error importing function definition for `_module_raw'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+/bin/sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+/usr/bin/lsb_release: line 162: /nfs/nfs2/home/ncm1/.linuxbrew/bin/getopt: No such file or directory
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+/bin/sh: error importing function definition for `which'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+/bin/sh: error importing function definition for `ml'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+/usr/bin/lsb_release: line 159: /nfs/nfs2/home/ncm1/.linuxbrew/bin/sed: No such file or directory
+/usr/bin/lsb_release: line 162: /nfs/nfs2/home/ncm1/.linuxbrew/bin/getopt: No such file or directory
+/usr/bin/lsb_release: line 159: /nfs/nfs2/home/ncm1/.linuxbrew/bin/sed: No such file or directory
+/usr/bin/lsb_release: line 159: /nfs/nfs2/home/ncm1/.linuxbrew/bin/sed: No such file or directory
+/usr/bin/lsb_release: line 162: /nfs/nfs2/home/ncm1/.linuxbrew/bin/getopt: No such file or directory
+/usr/bin/lsb_release: line 162: /nfs/nfs2/home/ncm1/.linuxbrew/bin/getopt: No such file or directory
+/usr/bin/lsb_release: line 162: /nfs/nfs2/home/ncm1/.linuxbrew/bin/getopt: No such file or directory
+INFO:    Worker 1 started on host silo-rhel.luddy.indiana.edu with 1 cpu(s)
+         CPU: Model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, OS: , Logical cores: 48, Physical cores: 24, Cache: 30720 KB, CPU Speed: 3300 MHz
+         Memory: MemTotal: 257305 MB,  MemFree: 7087 MB,  SwapTotal: 4095 MB,  SwapFree: 4059 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 246 MB
+INFO:    Worker 2 started on host silo-rhel.luddy.indiana.edu with 1 cpu(s)
+         CPU: Model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, OS: , Logical cores: 48, Physical cores: 24, Cache: 30720 KB, CPU Speed: 3014.48 MHz
+         Memory: MemTotal: 257305 MB,  MemFree: 7089 MB,  SwapTotal: 4095 MB,  SwapFree: 4059 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 246 MB
+INFO:    Worker 3 started on host silo-rhel.luddy.indiana.edu with 1 cpu(s)
+         CPU: Model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, OS: , Logical cores: 48, Physical cores: 24, Cache: 30720 KB, CPU Speed: 3300 MHz
+         Memory: MemTotal: 257305 MB,  MemFree: 7086 MB,  SwapTotal: 4095 MB,  SwapFree: 4059 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 246 MB
+INFO:    Worker 4 started on host silo-rhel.luddy.indiana.edu with 1 cpu(s)
+         CPU: Model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, OS: , Logical cores: 48, Physical cores: 24, Cache: 30720 KB, CPU Speed: 3300 MHz
+         Memory: MemTotal: 257305 MB,  MemFree: 7091 MB,  SwapTotal: 4095 MB,  SwapFree: 4059 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 246 MB
+INFO:    Worker 5 started on host silo-rhel.luddy.indiana.edu with 1 cpu(s)
+         CPU: Model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, OS: , Logical cores: 48, Physical cores: 24, Cache: 30720 KB, CPU Speed: 3300 MHz
+         Memory: MemTotal: 257305 MB,  MemFree: 7087 MB,  SwapTotal: 4095 MB,  SwapFree: 4059 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 246 MB
+INFO:    Worker 6 started on host silo-rhel.luddy.indiana.edu with 1 cpu(s)
+         CPU: Model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, OS: , Logical cores: 48, Physical cores: 24, Cache: 30720 KB, CPU Speed: 3300 MHz
+         Memory: MemTotal: 257305 MB,  MemFree: 7086 MB,  SwapTotal: 4095 MB,  SwapFree: 4059 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 246 MB
+INFO:    Worker 7 started on host silo-rhel.luddy.indiana.edu with 1 cpu(s)
+         CPU: Model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, OS: , Logical cores: 48, Physical cores: 24, Cache: 30720 KB, CPU Speed: 3300 MHz
+         Memory: MemTotal: 257305 MB,  MemFree: 7086 MB,  SwapTotal: 4095 MB,  SwapFree: 4059 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 246 MB
+INFO:    Worker 8 started on host silo-rhel.luddy.indiana.edu with 1 cpu(s)
+         CPU: Model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, OS: , Logical cores: 48, Physical cores: 24, Cache: 30720 KB, CPU Speed: 2842.03 MHz
+         Memory: MemTotal: 257305 MB,  MemFree: 7086 MB,  SwapTotal: 4095 MB,  SwapFree: 4059 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 246 MB
+
+INFO:    Ports ...
+         ========================================================================
+
+INFO:    Texts For Connectivity ...
+         ========================================================================
+         y (9.520, 3.400) 1116 xor2
+         vdd! (0.385, 5.980) 1116 xor2
+         gnd! (0.450, 0.070) 1116 xor2
+         b (2.130, 2.795) 1116 xor2
+         a (0.080, 3.435) 1116 xor2
+         y (1.500, 3.500) 1116 nand2
+         vdd! (0.070, 5.980) 1116 nand2
+         gnd! (0.210, 0.005) 1116 nand2
+         b (0.070, 2.800) 1116 nand2
+         a (0.070, 3.435) 1116 nand2
+
+INFO:    Texts For SELECT -LABEL ...
+         ========================================================================
+
+INFO:    Texts For EXPAND_TEXT_ORIGIN ...
+         ========================================================================
+
+INFO:    Texts For DFM_TEXT ...
+         ========================================================================
+
+INFO:    Texts For Device Text Model Layer ...
+         ========================================================================
+
+INFO:    Texts For Device Text Property Layer ...
+         ========================================================================
+
+INFO:    Layer Summary(Texts For Connectivity):
+         ----------------------------------------------------------------------------
+             LAYER                  ID       TEXTS
+         ----------------------------------------------------------------------------
+         met1_label               1116        10
+         ----------------------------------------------------------------------------
+
+INFO:    Layer Summary(Texts For SELECT -LABEL):
+         ----------------------------------------------------------------------------
+             LAYER                  ID       TEXTS
+         ----------------------------------------------------------------------------
+         ----------------------------------------------------------------------------
+
+INFO:    Layer Summary(Texts For EXPAND_TEXT_ORIGIN):
+         ----------------------------------------------------------------------------
+             LAYER                  ID       TEXTS
+         ----------------------------------------------------------------------------
+         ----------------------------------------------------------------------------
+
+INFO:    Layer Summary(Texts For DFM_TEXT):
+         ----------------------------------------------------------------------------
+             LAYER                  ID       TEXTS
+         ----------------------------------------------------------------------------
+         ----------------------------------------------------------------------------
+
+INFO:    Expanded Cell Summary
+         L1M1_C_CDNS_5 is expanded.
+INFO:    Rule pp_term completed with no violations, 1/3
+         Remaining rules: np_term  diff_res 
+INFO:    Rule diff_res completed with no violations, 2/3
+         Remaining rules: np_term 
+INFO:    Rule np_term completed with no violations, 3/3
+INFO:    Status: Runset 100% complete as of 2024-04-04 22:34:45   Elapsed: 00:00:09
+         Worker: Active CPUs  Total Mem(MB)  Active Mem(MB)  CPU time(s)
+              1:    1 /   1             15              15            0
+              2:    1 /   1             15              15            0
+              3:    1 /   1             15              15            0
+              4:    1 /   1             15              15            0
+              5:    1 /   1             15              15            0
+              6:    1 /   1             15              15            0
+              7:    1 /   1             15              15            0
+              8:    1 /   1             15              15            0
+INFO:	 Status: Finishing as of 2024-04-04 22:34:45   Elapsed: 00:00:09   CPU time[s]: 9
+INFO:    Resource usage by worker at exit:
+                  CPU      Elapsed  CPUs       CPU       Peak        Peak engine
+         Worker:  time[s]  time[s]  Allocated  usage[%]  Memory[MB]  Memory[MB]
+              1:        0        3          1     22.69          28           15
+              2:        0        4          1     22.76          28           15
+              3:        0        3          1     23.29          31           15
+              4:        0        4          1     22.37          36           15
+              5:        0        3          1     22.61          28           15
+              6:        0        4          1     24.25          36           15
+              7:        0        3          1     22.75          28           15
+              8:        0        3          1     23.19          35           15
+         Worker resource usage  summary: Total CPU[s]: 0  Run duration[s]: 4  Max peak memory[MB]: 36
+         Worker CPU utilization summary: 0 of 27 available CPU seconds ( 0.00%) with 8 average available CPU(s)
+INFO:    Extraction result: CLEAN (Reporter)
+INFO:    Generating summary in /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/xor2.sum
+INFO:    All selected rules completed
+         Total CPU Time                    : 1(s)
+         Total Real Time                   : 10(s)
+         Total Original Geometry           : 140(667)
+         Total ERC RuleChecks              : 3
+         Total ERC Results                 : 0 (0)
+         ASCII report database is /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/xor2.erc_errors.ascii
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+INFO:    Pegasus extracted connectivity database creation started
+INFO:    CmdLine: /home/cadence/installs/PEGASUS213/tools.lnx86/Pegasus/bin/64bit/edbToEcdb -kf -edb xor2_3055090.db -ecdb ./ -topcell xor2 -netlist ./xor2.net -layermap ./xor2.ecdbmap -textmap ./xor2.ports -dependmap xor2.lmap.perc -kvp ifs:7X -lvsfile ./xor2.lvsfile -saveFloatingNets .xor2.info.softchk 
+INFO:    Opening layer file 'xor2_3055090.db/__layer'...
+INFO:    Loading layer map file './xor2.ecdbmap'...
+INFO:    Loading text map file './xor2.ports'...
+INFO:    Loading dependency map file 'xor2.lmap.perc'...
+INFO:    Pre loading edb directory contents...
+INFO:    ECDB file name './/.xor2.ecdb'...
+INFO:    Loading lvs file './xor2.lvsfile'...
+INFO:    Writing db header information...(0s)
+INFO:    Transfering cdl structures to ecdb structures...
+INFO:    Read Netlist (32 threads)...
+INFO:      DONE - (2s)
+INFO:    Process (32 threads)...
+INFO:    Cell(       0):  10% Done...(2s), M1M2_C_CDNS_1                           
+INFO:    Cell(       4):  20% Done...(2s), pfet_01v8_CDNS_6                        
+INFO:    Cell(       3):  30% Done...(2s), subTap_CDNS_4                           
+INFO:    Cell(       1):  40% Done...(2s), polyConn_CDNS_2                         
+INFO:    Cell(       6):  50% Done...(2s), nfet_01v8_CDNS_8                        
+INFO:    Cell(       5):  60% Done...(2s), nfet_01v8_CDNS_7                        
+INFO:    Cell(       7):  70% Done...(2s), pfet_01v8_CDNS_9                        
+INFO:    Cell(       9):  80% Done...(2s), xor2                                    
+INFO:    Cell(       8):  90% Done...(2s), nand2                                   
+INFO:    Cell(       2): 100% Done...(3s), nwellTap_CDNS_3                         
+INFO:      DONE - (1s)
+INFO:    Cells creation time: (3s)
+INFO:    Write netlist items...         (3s)
+INFO:    Saving name table to db...
+INFO:    Save device templates to the db...
+INFO:    Save connect rules to the db...
+INFO:    Write calculated header information to the top of file...
+INFO:    Erasing cdl subckts...          (0s)
+
+INFO:    edbToEcdb Header Information:
+  ECDB file version   : 37
+  DevTmpl offset      : 11313
+  Connect offset      : 0
+  NameTable offset    : 10587
+  Layer Map offset    : 167
+  Cell Start offset   : 9887
+  Cell End offset     : 10587
+  Aux Data offset     : 11641
+  Labels     offset   : 0
+  Layer RW   offset   : 0
+  NVP                 : ifs:0.01 
+  Scale               : 4000
+  GDS Scale           : 1000
+  File size (static)  : 11717
+  File size (dynamic) : 0
+  Cell count          : 10
+  ECDB create time    : 3
+  EDB info            : 10
+  Top Cell            : xor2
+  EDB info (Trans)    : WRITTEN_64 W_NOT_NET_ORDER 
+
+INFO:    edbToEcdb Sizes written to disk (MB):
+  NameTbl             :     0.000726
+  Layers              :     0.003014
+  Shapes              :     0.002501
+  XYTree              :     0.001988
+  LookUpTbls          :     0.000384
+  Cells               :     0.000775
+  Insts               :     0.000648
+  Ports               :     0.000468
+  Nets                :     0.000272
+  Pins                :     0.000094
+  Labels              :     0.000280
+  DevTmpl             :     0.000324
+  Connect             :     0.000000
+  Header              :     0.000167
+  AuxData             :     0.000074
+  NvnLabels           :     0.000002
+---------------------------------
+  Total               :     0.011717
+
+INFO:    Manager summary: CPU(s): 0 Elapsed(s): 3 Peak memory(MB): 749.64
+INFO:    Pegasus extracted connectivity database creation completed. 2024-04-04 22:34:50
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+INFO:    Pegasus REPORTDB creation started...
+INFO:    Processing file xor2.rep
+INFO:    Manager summary: CPU(s): 0 Elapsed(s): 1 Peak memory(MB): 51.62
+INFO:    Pegasus REPORTDB creation completed. 2024-04-04 22:34:51
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+
+
+INFO:    Comparing netlists ...
+INFO:    Setup VLDB (0s)
+INFO:    Init sch rules (0s)
+INFO:    Init lay rules (0s)
+INFO:    Init structures (0s)
+INFO:    Set cells to delete (0s)
+INFO:    Reading schematic network
+INFO:     inputting cdl netlist /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/xor2.cdl...
+INFO:     finished loading cdl netlist /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/xor2.cdl (0s)
+INFO:     commit cdl netlist(s)...
+INFO:     finished committing cdl netlists (0s)
+INFO:    Post sch netlist rule processing (0s)
+INFO:    Reading layout network
+INFO:     inputting (fast parser) cdl netlist  /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/xor2.spi...
+INFO:     finished loading cdl netlist /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs/xor2.spi (0s)
+INFO:     commit cdl netlist(s)...
+INFO:     finished committing cdl netlists (0s)
+INFO:    Post lay netlist rule processing (0s)
+INFO:    Processing blackBox rules (0s)
+INFO:    Processing bindings (0s)
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_m1m2m3m4_shieldm5' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_m1m2m3m4_shieldm5' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_m1m2m3m4_shieldl1m5' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_m1m2m3m4_shieldl1m5' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_m1m2m3_shieldl1' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_m1m2m3_shieldl1' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_m1m2_noshield' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_m1m2_noshield' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_l1m1m2m3m4_shieldm5' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_l1m1m2m3m4_shieldm5' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_l1m1m2m3_shieldm4' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_l1m1m2m3_shieldm4' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_l1m1m2_shieldpom3' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_l1m1m2_shieldpom3' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_08p6x07p8_m1m2m3_shieldl1m5_floatm4' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_08p6x07p8_m1m2m3_shieldl1m5_floatm4' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_08p6x07p8_m1m2m3_shieldl1' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_08p6x07p8_m1m2m3_shieldl1' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_08p6x07p8_m1m2_noshield' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_08p6x07p8_m1m2_noshield' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_04p4x04p6_m1m2m3_shieldl1' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_04p4x04p6_m1m2m3_shieldl1' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_04p4x04p6_m1m2_noshield' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_04p4x04p6_m1m2_noshield' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_02p4x04p6_m1m2_noshield' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_02p4x04p6_m1m2_noshield' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+INFO:    Commit sch verilog netlist (0s)
+INFO:    Commit lay verilog netlist (0s)
+INFO:    Erase netlist data (0s)
+INFO:    Set blackbox cells (0s)
+INFO:    Sch put cells in memory (0s)
+INFO:    Sch update netlist rules (0s)
+INFO:    Sch adjust device pins (0s)
+INFO:    Sch calc hier order (0s)
+INFO:    Sch process inherited connections (0s)
+INFO:    Sch generate qrc files (0s)
+INFO:    Sch handle global pins (0s)
+INFO:    Sch apply rule actions with processed netlist (0s)
+INFO:    Sch process cell supply (0s)
+INFO:    Lay put cells in memory (0s)
+INFO:    Lay update netlist rules (0s)
+INFO:    Lay calc hier order (0s)
+INFO:    Lay process inherited connections (0s)
+INFO:    Lay generate qrc files (0s)
+INFO:    Lay handle global pins (0s)
+INFO:    Lay apply rule actions with processed netlist (0s)
+INFO:    Lay process cell supply (0s)
+INFO:    Check if interposer flow (0s)
+INFO:    Check binding file (0s)
+INFO:    Set topcell global pin indicator (0s)
+INFO:    Calculate preserve parameterized cells (0s)
+INFO:    Check generic device bindings (0s)
+INFO:    Calculate primitive device bindings (0s)
+INFO:    Remove unused device parameters (0s)
+INFO:    Set instances to flatten inside cells (0s)
+INFO:    Calculate parameters (0s)
+INFO:    Start sch normalization (0s)
+INFO:    Start lay normalization (0s)
+INFO:    Calculate primitive device bindings (2nd time) (0s)
+INFO:    Finalize binding (0s)
+INFO:    Check expand on pin error (0s)
+INFO:    Sch join nets (0s)
+INFO:    Sch setup hier normalization (0s)
+INFO:    Sch remove feedthroughs and black box cell instances (0s)
+INFO:    Sch remove identical pins (0s)
+INFO:    Sch calc connection counts (0s)
+INFO:    Run genHierCells (0s)
+INFO:    Reset normalization flags (0s)
+INFO:    Lay join nets (0s)
+INFO:    Lay setup hier normalization (0s)
+INFO:    Lay remove feedthroughs and black box cell instances (0s)
+INFO:    Lay remove identical pins (0s)
+INFO:    Lay calc connection counts (0s)
+INFO:    Normalize sch (0s)
+INFO:    Read in color file (0s)
+INFO:    Set scale factor per cell (0s)
+INFO:    Setup property init rules (0s)
+INFO:    Write sch vldb file (1s)
+INFO:    Write lay vldb file (0s)
+INFO:    Apply preserve parameterized cells (0s)
+INFO:    Cleanup after VLDB processing (0s)
+WARNING (NVN-15320): The rule 'lvs_short_equivalent_nodes' was set to 'yes' and 
+           the rule 'lvs_reduce_split_gates' was not specified. 
+           Changing the default setting of 'lvs_reduce_split_gates' from 'yes' to 'no'.
+
+INFO:    Cell comparison output format:
+            <Comparing|Top Cell> <Layout Cell> vs <Schematic Cell>
+               <Layout instances> insts vs <Schematic instances> insts  (<Time>)-<Status>
+
+         Top Cell  xor2 vs xor2
+            16 insts vs 16 insts . . . . . . . . . . . . . . . . . . . . . . . (0s)-match
+
+INFO:    Generating the LVS report...
+           Report Init (0s)
+           Load common queries (0s)
+           Create report (0s)
+           Cleanup (1s)
+INFO:    Report finished
+
+INFO:    Extraction Run Summary
+         Total CPU Time        : 1(s)
+         Total Real Time       : 10(s)
+         Peak Memory Used      : 178.00(M)
+
+
+INFO:    NVN Run Summary
+         Total CPU Time        : 0(s)
+         Total Real Time       : 1(s)
+         Peak Memory Used      : 277.98(M)
+
+
+INFO:    LVS Summary
+         Total CPU Time        : 1(s)
+         Total Real Time       : 11(s)
+         Peak Memory Used      : 277.98(M)
+
+    ########################################################
+    #                                                      #
+    # Run Result             : MATCH                       #
+    #                                                      #
+    # Run Summary            : [INFO]  ERC Results: Empty  #
+    #                        : [INFO]  Extraction Clean    #
+    #                                                      #
+    # ERC Summary File       : xor2.sum                    #
+    # Extraction Report File : xor2.rep                    #
+    # Comparison Report File : xor2.rep.cls                #
+    #                                                      #
+    ########################################################
+
+INFO:    Checking in all SoftShare licenses.
+INFO:    Manager summary: CPU(s): 3  Elapsed(s): 17  Peak memory(MB): 158
+
+Pegasus finished normally. 2024-04-04 22:34:53
+
+

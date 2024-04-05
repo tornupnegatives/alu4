@@ -1,0 +1,6 @@
+report_summary -drc "xor2.sum" -replace;
+max_results -drc 1000;
+results_db -drc "/nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/xor2.drc_errors.ascii" -ascii;
+abort_on_layout_error yes;
+layout_format gdsii;
+layout_path "/nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/xor2.gds.gz";

@@ -1,0 +1,129 @@
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* CDL Netlist:                                              *
+*                                                           *
+* Cell Name  : or2                                          *
+* Netlisted  : Thu Apr  4 18:28:03 2024                     *
+* Pegasus Version: 21.32-s016 Wed Nov 9 21:23:04 PST 2022   *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+*.LDD
+*.DEVTMPLT 0 R(res_generic_m1) met1_res met1(P) met1(N)
+*.DEVTMPLT 1 R(res_generic_m2) met2_res met2(P) met2(N)
+*.DEVTMPLT 2 R(res_generic_m3) met3_res met3(P) met3(N)
+*.DEVTMPLT 3 R(res_generic_m4) met4_res met4(P) met4(N)
+*.DEVTMPLT 4 R(res_generic_m5) met5_res met5(P) met5(N)
+*.DEVTMPLT 5 R(RES_GENERIC_ND) diff_res np_term(P) np_term(N)
+*.DEVTMPLT 6 R(RES_GENERIC_PD) diff_res pp_term(P) pp_term(N)
+*.DEVTMPLT 7 MN(nfet_01v8) nfet_01v8_rec nSourceDrain(D) nfet(G) nSourceDrain(S) pwell(B)
+*.DEVTMPLT 8 MP(pfet_01v8) pfet_01v8_rec pSourceDrain(D) pfet(G) pSourceDrain(S) nwell(B)
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nwellTap_CDNS_1                                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nwellTap_CDNS_1 1
+** N=3 EP=1 FDC=0
+.ends nwellTap_CDNS_1
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: subTap_CDNS_2                                   *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt subTap_CDNS_2 1
+** N=3 EP=1 FDC=0
+.ends subTap_CDNS_2
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: L1M1_C_CDNS_3                                   *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt L1M1_C_CDNS_3 1
+** N=1 EP=1 FDC=0
+.ends L1M1_C_CDNS_3
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: polyConn_CDNS_4                                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt polyConn_CDNS_4 1
+** N=2 EP=1 FDC=0
+.ends polyConn_CDNS_4
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pfet_01v8_CDNS_5                                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pfet_01v8_CDNS_5 1 2 3 4
+** N=7 EP=4 FDC=1
+M0 2 3 1 4 pfet_01v8 L=1.5e-07 W=1.04e-06 $X=0 $Y=0 $dt=8
+.ends pfet_01v8_CDNS_5
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nfet_01v8_CDNS_6                                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nfet_01v8_CDNS_6 1 2 3
+** N=4 EP=3 FDC=1
+M0 2 3 1 1 nfet_01v8 L=1.5e-07 W=5.2e-07 $X=0 $Y=0 $dt=7
+.ends nfet_01v8_CDNS_6
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nfet_01v8_CDNS_7                                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nfet_01v8_CDNS_7 1 2 3
+** N=5 EP=3 FDC=1
+M0 2 3 1 1 nfet_01v8 L=1.5e-07 W=5.2e-07 $X=0 $Y=0 $dt=7
+.ends nfet_01v8_CDNS_7
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pfet_01v8_CDNS_8                                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pfet_01v8_CDNS_8 1 2 3
+** N=6 EP=3 FDC=1
+M0 2 3 1 1 pfet_01v8 L=1.5e-07 W=1.04e-06 $X=0 $Y=0 $dt=8
+.ends pfet_01v8_CDNS_8
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nor2                                            *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nor2 vdd! gnd! a b y
+** N=6 EP=5 FDC=4
+X0 vdd! nwellTap_CDNS_1 $T=785 5975 0 90 $X=220 $Y=5710
+X1 gnd! subTap_CDNS_2 $T=785 -5 0 270 $X=275 $Y=-215
+X2 y L1M1_C_CDNS_3 $T=1215 3065 0 0 $X=1100 $Y=2900
+X3 a polyConn_CDNS_4 $T=445 3465 0 0 $X=310 $Y=3300
+X4 b polyConn_CDNS_4 $T=1125 2485 0 0 $X=990 $Y=2320
+X5 6 y b vdd! pfet_01v8_CDNS_5 $T=925 4420 0 0 $X=640 $Y=4240
+X6 gnd! y b nfet_01v8_CDNS_6 $T=1075 520 1 180 $X=860 $Y=370
+X7 gnd! y a nfet_01v8_CDNS_7 $T=495 520 0 0 $X=90 $Y=370
+X8 vdd! 6 a pfet_01v8_CDNS_8 $T=495 4420 0 0 $X=50 $Y=4240
+.ends nor2
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nfet_01v8_CDNS_11                               *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nfet_01v8_CDNS_11 1 2 3
+** N=5 EP=3 FDC=1
+M0 2 3 1 1 nfet_01v8 L=1.5e-07 W=5.2e-07 $X=0 $Y=0 $dt=7
+.ends nfet_01v8_CDNS_11
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pfet_01v8_CDNS_12                               *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pfet_01v8_CDNS_12 1 2 3
+** N=11 EP=3 FDC=1
+M0 2 3 1 1 pfet_01v8 L=1.5e-07 W=1.66e-06 $X=0 $Y=0 $dt=8
+.ends pfet_01v8_CDNS_12
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: inv1                                            *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt inv1 vdd! gnd! a y
+** N=6 EP=4 FDC=2
+X0 y L1M1_C_CDNS_3 $T=955 3045 0 0 $X=840 $Y=2880
+X1 a polyConn_CDNS_4 $T=445 3005 0 0 $X=310 $Y=2840
+X2 gnd! y a nfet_01v8_CDNS_11 $T=495 520 0 0 $X=90 $Y=370
+X3 vdd! y a pfet_01v8_CDNS_12 $T=495 3800 0 0 $X=50 $Y=3620
+.ends inv1
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: or2                                             *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt or2 a b gnd! vdd! y
+** N=6 EP=5 FDC=6
+X0 vdd! gnd! a b 5 nor2 $T=0 0 0 0 $X=0 $Y=-260
+X1 vdd! gnd! 5 y inv1 $T=1565 0 0 0 $X=1565 $Y=-260
+.ends or2

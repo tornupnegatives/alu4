@@ -1,0 +1,37 @@
+Gds_Map 1000
+Layers:
+0 0 31 Apr  4 18:28:04 2024
+met1_label 1 0
+via2 5 0
+poly 7 0
+poly_licon1 9 0
+nfet_01v8_rec 12 0
+licon1 13 0
+hvtpfet 17 0
+met1 18 0
+li1 19 0
+mcon 20 0
+nfet 21 0
+nwell 22 0
+pfet 23 0
+pwell 24 0
+pfet_01v8_rec 26 0
+lvtpfet 28 0
+lvtpfet_01v8_rec 29 0
+met1_pin 32 0
+lvtnfet 33 0
+lvtnfet_01v8_rec 34 0
+hvtpfet_01v8_rec 36 0
+ntap 38 0
+ptap 39 0
+pSourceDrain 40 0
+nSourceDrain 42 0
+isolated_tap 43 0
+HV_ngate_3v3 44 0
+HV_ngate_5v0 47 0
+HV_FET_gate 48 0
+HV_ngate_5v10v 49 0
+HV_pgate_5v10v 50 0
+gate 55 0
+END OF RESPONSE
+0 0 0 Apr  4 18:28:04 2024

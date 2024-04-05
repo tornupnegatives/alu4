@@ -4,3 +4,5 @@ DEFINE rfLib $(inst_root_with:tools/dfII/bin/virtuoso)/tools/dfII/samples/artist
 DEFINE US_8ths $(inst_root_with:tools/dfII/bin/virtuoso)/tools/dfII/etc/cdslib/sheets/US_8ths
 INCLUDE /home/sky130_release_0.0.1/cds.lib
 DEFINE std_cells ./std_cells
+#Removed by ddDeleteObj: DEFINE tmp_cells /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/tmp_cells
+DEFINE lab0_nm /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lab0_nm

@@ -1,0 +1,8 @@
+(
+  ( nil 
+    repList  " auLvs schematic cmos_sch"
+    stopList " auLvs"
+  )
+  ( model
+  )
+)

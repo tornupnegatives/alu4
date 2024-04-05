@@ -1,0 +1,7 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary and2
+gnd! 3 gnd! 245 70 met1
+yout 6 yout 2435 3095 met1
+ain 4 ain 130 3430 met1
+bin 5 bin 135 2805 met1
+vdd! 2 vdd! 995 5970 met1

@@ -1,0 +1,78 @@
+sh: switchml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `switchml'
+sh: which: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `which'
+sh: ml: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `ml'
+sh: _module_raw: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `_module_raw'
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `module'
+
+########################################################################
+Get environment info ...
+########################################################################
+ENV VAR: TCL_LIBRARY = /home/cadence/installs/PEGASUS213/tools.lnx86/pegasus/bin/64bit/../../../../share/lib/tcltk/08.64/tcl8.6
+ENV VAR: TCLX_LIBRARY = /home/cadence/installs/PEGASUS213/tools.lnx86/pegasus/bin/64bit/../../../../share/lib/tclx/08.40
+ENV VAR: TCLLIBPATH = /home/cadence/installs/PEGASUS213/tools.lnx86/pegasus/bin/64bit/../../../../share/lib/itcl/3.4.1 /home/cadence/installs/PEGASUS213/tools.lnx86/pegasus/bin/64bit/../../../../share/lib/tclxml/3.2 /home/cadence/installs/PEGASUS213/tools.lnx86/pegasus/bin/64bit/../../../../share/lib/tcllib/1.18
+ENV VAR: PEGASUS_PVL_LIBRARY = /home/cadence/installs/PEGASUS213/tools.lnx86/pegasus/bin/64bit/../../../Pegasus/bin/64bit/etc/pvl/tcl
+ENV VAR: PEGASUS_TVL_LIBRARY = /home/cadence/installs/PEGASUS213/tools.lnx86/pegasus/bin/64bit/../../../Pegasus/bin/64bit/etc/preproc/tcl
+ENV VAR: PEGASUS_LVS_DEVICE_DFM_LIBRARY = /home/cadence/installs/PEGASUS213/tools.lnx86/pegasus/bin/64bit/../../../Pegasus/bin/64bit/etc/lvs_device_dfm/tcl
+
+
+########################################################################
+Parsing Control File /nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/pegasusdrcctl ...
+########################################################################
+REPORT_SUMMARY -drc "and2.sum" -replace;
+MAX_RESULTS -drc 1000;
+RESULTS_DB -drc "/nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/and2.drc_errors.ascii" -ascii;
+ABORT_ON_LAYOUT_ERROR yes;
+LAYOUT_FORMAT gdsii;
+LAYOUT_PATH "/nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/and2.gds.gz";
+
+########################################################################
+Parsing Rule File /l/sky130_release_0.0.1/Sky130_DRC/sky130_rev_0.0_1.0.drc.pvl ...
+########################################################################
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/layer_def.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/derived_layers.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/dnwell.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/nwell.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/hvtp.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/hvtr.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/lvtn.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/ncm.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/difftap.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/tunm.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/poly.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/rpm.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/varac.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/npc.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/n_psd.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/licon.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/li.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/mcon.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/vpp.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/m1.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/via.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/m2.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/via2.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/m3.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/via3.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/nsm.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/m4.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/via4.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/m5.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/pad.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/mf.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/hvi.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/hvnwell.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/hvdifftap.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/hvpoly.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/hvntm.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/denmos.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/depmos.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/hv.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/vhvi.drc.pvl"
+include "/l/sky130_release_0.0.1/Sky130_DRC/Include/pwres.drc.pvl"
+[INPUT ERROR] There are no rules to execute in given rule file.
+
