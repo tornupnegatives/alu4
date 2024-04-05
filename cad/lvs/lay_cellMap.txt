@@ -1,2 +1,0 @@
-std_cells xor2 layout xor2
-std_cells nand2 layout nand2

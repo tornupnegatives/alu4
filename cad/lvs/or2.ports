@@ -1,7 +1,0 @@
-# SVDB: Port Table (ports)
-# SVDB: Layout Primary or2
-a 3 a 70 3435 met1
-y 6 y 2570 2980 met1
-vdd! 1 vdd! 70 5980 met1
-b 4 b 70 2515 met1
-gnd! 2 gnd! 210 10 met1
