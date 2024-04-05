@@ -8,6 +8,9 @@
 cad/*.log
 cad/*.history
 cad/*.cdslck
+cad/lab0_nm/
+cad/lvs/
+cad/drc/
 
 # Project
 build/
