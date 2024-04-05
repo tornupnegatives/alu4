@@ -45,27 +45,40 @@ module alu1 (
         .b(b),
         .carry_in(carry_in),
         .out(add_out),
-        .carry_out(carry_out)
+        .carry_out(add_carry_out)
+    );
+
+    sub1 sub1_ (
+        .a(a),
+        .b(b),
+        .borrow_in(carry_in),
+        .out(sub_out),
+        .borrow_out(sub_borrow_out)
     );
 
     ////////////////////////////////////////////////////////////////////////////
     // OUTPUT ROUTING
     ////////////////////////////////////////////////////////////////////////////
 
-    mux8 mux8_ (
+    mux8 out_mux8_ (
         {
             and_out,
             not_out,
             or_out,
             xor_out,
             add_out,
-            1'b0,              // sub_out,
-            1'b0,              // transfer_out,
-            1'b0               // test_out
+            sub_out,
+            1'b0,  // transfer_out,
+            1'b0  // test_out
         },
-
         select,
         out
+    );
+
+    mux8 carry_mux8_ (
+        {1'b0, 1'b0, 1'b0, 1'b0, add_carry_out, sub_borrow_out, 1'b0, 1'b0},
+        select,
+        carry_out
     );
 
 endmodule
