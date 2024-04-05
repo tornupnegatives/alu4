@@ -1,7 +1,0 @@
-1712284494 0 1712284494 "/nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/lvs" "pegasusrv" "" "" "" "" "" "" "" "" "" "" "" true
-1712284490 0 1712284490 "/nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc" "pegasusrv" "" "" "" "" "" "" "" "" "" "" "" true
-1712284488 0 1712284488 "/nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/xor2.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
-1712284011 0 1712284011 "/nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/and2.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
-1712283913 0 1712283913 "/nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/nand2.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
-1712269675 0 1712269675 "/nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/or2.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
-1712162180 0 1712162180 "/nfs/nfs2/home/ncm1/IC_CAD/alu4/cad/drc/buf1.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
