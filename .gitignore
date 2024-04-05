@@ -13,6 +13,7 @@ cad/*.dm
 cad/lvs/
 cad/drc/
 cad/lab0_nm/
+cad/.cadence/
 
 # Project
 build/
