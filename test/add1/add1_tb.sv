@@ -11,6 +11,12 @@ module add1_tb;
         .out,
         .carry_out
     );
+
+    task automatic initialize;
+        a = 0;
+        b = 0;
+        carry_in = 0;
+    endtask
     
     task AdderTest;
         input aT,bT,carry_inT, outT,carry_outT;
@@ -22,6 +28,7 @@ module add1_tb;
     
     initial
     begin
+        initialize();
         AdderTest(0,0,0,0,0);
         AdderTest(0,0,1,1,0);
         AdderTest(0,1,0,1,0);
