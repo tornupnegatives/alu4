@@ -36,6 +36,11 @@ module alu1 (
         .out(xor_out)
     );
 
+    not1 test_not1_ (
+        .a  (xor_out),
+        .out(test_out)
+    );
+
     ////////////////////////////////////////////////////////////////////////////
     // ARITHMETIC UNITS
     ////////////////////////////////////////////////////////////////////////////
@@ -61,16 +66,7 @@ module alu1 (
     ////////////////////////////////////////////////////////////////////////////
 
     mux8 out_mux8_ (
-        {
-            and_out,
-            not_out,
-            or_out,
-            xor_out,
-            add_out,
-            sub_out,
-            1'b0,  // transfer_out,
-            1'b0  // test_out
-        },
+        {and_out, not_out, or_out, xor_out, add_out, sub_out, a, test_out},
         select,
         out
     );

@@ -154,6 +154,36 @@ module alu1_tb;
         else $fatal(1, "FAIL");
     endtask
 
+    task automatic test_transfer;
+        input test_a;
+        input test_b;
+        input test_carry;
+
+        select = TRANSFER;
+        #DELAY;
+
+        $display("TNS:\tA=%b\tB=%b\tC=%b\tOUT=%b\tCARRY=%b", test_a, test_b,
+                 test_carry, out, carry_out);
+
+        assert (out === test_a)
+        else $fatal(1, "FAIL");
+    endtask
+
+    task automatic test_test;
+        input test_a;
+        input test_b;
+        input test_carry;
+
+        select = TEST;
+        #DELAY;
+
+        $display("TST:\tA=%b\tB=%b\tC=%b\tOUT=%b\tCARRY=%b", test_a, test_b,
+                 test_carry, out, carry_out);
+
+        assert (out === (test_a == test_b))
+        else $fatal(1, "FAIL");
+    endtask
+
     initial begin
         initialize();
 
@@ -166,6 +196,8 @@ module alu1_tb;
                     test_not(i, j, k);
                     test_add(i, j, k);
                     test_sub(i, j, k);
+                    test_transfer(i, j, k);
+                    test_test(i, j, k);
                 end
             end
         end
