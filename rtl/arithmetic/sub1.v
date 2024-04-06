@@ -1,18 +1,18 @@
-// Description: 2-to-1 full adder, with carry
-// Author: Caleb Cooke
+// Description: 2-to-1 full subtractor, with borrow
+// Author: Joseph Bellahcen <joeclb@icloud.com>
 
 `default_nettype wire
 
-module add1 (
+module sub1 (
     input  a,
     input  b,
-    input  carry_in,
+    input  borrow_in,
     output out,
-    output carry_out
+    output borrow_out
 );
 
     ////////////////////////////////////////////////////////////////////////////
-    // Sum Logic
+    // Difference Logic
     ////////////////////////////////////////////////////////////////////////////
 
     xor2 x0 (
@@ -22,31 +22,41 @@ module add1 (
     );
 
     xor2 x1 (
-        .a(carry_in),
+        .a(borrow_in),
         .b(x),
         .out
     );
 
     ////////////////////////////////////////////////////////////////////////////
-    // Carry Logic
+    // Borrow Logic
     ////////////////////////////////////////////////////////////////////////////
 
+    inv1 i0 (
+        .a  (a),
+        .out(a_n)
+    );
+
     and2 a0 (
-        .a,
-        .b,
+        .a  (a_n),
+        .b  (b),
         .out(y)
     );
 
-    and2 a1 (
+    inv1 i1 (
         .a  (x),
-        .b  (carry_in),
+        .out(x_n)
+    );
+
+    and2 a1 (
+        .a  (x_n),
+        .b  (borrow_in),
         .out(z)
     );
 
     or2 o0 (
         .a  (y),
         .b  (z),
-        .out(carry_out)
+        .out(borrow_out)
     );
 
 endmodule

@@ -19,7 +19,7 @@ module alu1 (
         .out(and_out)
     );
 
-    not1 not1_ (
+    inv1 inv1_ (
         .a  (a),
         .out(not_out)
     );
@@ -36,6 +36,11 @@ module alu1 (
         .out(xor_out)
     );
 
+    inv1 test_inv1_ (
+        .a  (xor_out),
+        .out(test_out)
+    );
+
     ////////////////////////////////////////////////////////////////////////////
     // ARITHMETIC UNITS
     ////////////////////////////////////////////////////////////////////////////
@@ -45,27 +50,31 @@ module alu1 (
         .b(b),
         .carry_in(carry_in),
         .out(add_out),
-        .carry_out(carry_out)
+        .carry_out(add_carry_out)
+    );
+
+    sub1 sub1_ (
+        .a(a),
+        .b(b),
+        .borrow_in(carry_in),
+        .out(sub_out),
+        .borrow_out(sub_borrow_out)
     );
 
     ////////////////////////////////////////////////////////////////////////////
     // OUTPUT ROUTING
     ////////////////////////////////////////////////////////////////////////////
 
-    mux8 mux8_ (
-        {
-            and_out,
-            not_out,
-            or_out,
-            xor_out,
-            1'b0,              // add_out,
-            1'b0,              // sub_out,
-            1'b0,              // transfer_out,
-            1'b0               // test_out
-        },
-
+    mux8 out_mux8_ (
+        {and_out, not_out, or_out, xor_out, add_out, sub_out, a, test_out},
         select,
         out
+    );
+
+    mux8 carry_mux8_ (
+        {1'b0, 1'b0, 1'b0, 1'b0, add_carry_out, sub_borrow_out, 1'b0, 1'b0},
+        select,
+        carry_out
     );
 
 endmodule
