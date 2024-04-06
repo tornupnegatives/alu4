@@ -1,9 +1,9 @@
-// Description: 1-to-1 NOT gate
+// Description: 1-to-1 NOT gate (inverter)
 // Author: Caleb Cooke
 
 `default_nettype wire
 
-module not1 (
+module inv1 (
     input  a,
     output out
 );

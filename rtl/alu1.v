@@ -19,7 +19,7 @@ module alu1 (
         .out(and_out)
     );
 
-    not1 not1_ (
+    inv1 inv1_ (
         .a  (a),
         .out(not_out)
     );
@@ -36,7 +36,7 @@ module alu1 (
         .out(xor_out)
     );
 
-    not1 test_not1_ (
+    inv1 test_inv1_ (
         .a  (xor_out),
         .out(test_out)
     );

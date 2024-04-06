@@ -10,7 +10,7 @@ module mux2 (
     output out
 );
 
-    not1 not1_0 (
+    inv1 inv1_0 (
         select,
         select_n
     );
