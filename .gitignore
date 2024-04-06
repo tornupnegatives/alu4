@@ -9,10 +9,8 @@ cad/*.log
 cad/*.history
 cad/*.cdslck
 cad/*.state
-cad/*.dm
 cad/lvs/
 cad/drc/
-cad/lab0_nm/
 cad/.cadence/
 
 # Project
