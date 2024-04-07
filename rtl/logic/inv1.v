@@ -5,10 +5,10 @@
 
 module inv1 (
     input  a,
-    output out
+    output y
 );
 
-    not (out, a);
+    not (y, a);
 
 endmodule
 

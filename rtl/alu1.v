@@ -14,31 +14,31 @@ module alu1 (
     ////////////////////////////////////////////////////////////////////////////
 
     and2 and2_ (
-        .a  (a),
-        .b  (b),
-        .out(and_out)
+        .a(a),
+        .b(b),
+        .y(and_out)
     );
 
     inv1 inv1_ (
-        .a  (a),
-        .out(not_out)
+        .a(a),
+        .y(not_out)
     );
 
     or2 or2_ (
-        .a  (a),
-        .b  (b),
-        .out(or_out)
+        .a(a),
+        .b(b),
+        .y(or_out)
     );
 
     xor2 xor2_ (
-        .a  (a),
-        .b  (b),
-        .out(xor_out)
+        .a(a),
+        .b(b),
+        .y(xor_out)
     );
 
     inv1 test_inv1_ (
-        .a  (xor_out),
-        .out(test_out)
+        .a(xor_out),
+        .y(test_out)
     );
 
     ////////////////////////////////////////////////////////////////////////////
@@ -66,15 +66,15 @@ module alu1 (
     ////////////////////////////////////////////////////////////////////////////
 
     mux8 out_mux8_ (
-        {and_out, not_out, or_out, xor_out, add_out, sub_out, a, test_out},
-        select,
-        out
+        .in({and_out, not_out, or_out, xor_out, add_out, sub_out, a, test_out}),
+        .select(select),
+        .out(out)
     );
 
     mux8 carry_mux8_ (
-        {1'b0, 1'b0, 1'b0, 1'b0, add_carry_out, sub_borrow_out, 1'b0, 1'b0},
-        select,
-        carry_out
+        .in({4'b1111, add_carry_out, sub_borrow_out, 2'b0}),
+        .select(select),
+        .out(carry_out)
     );
 
 endmodule

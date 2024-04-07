@@ -11,26 +11,26 @@ module mux2 (
 );
 
     inv1 inv1_0 (
-        .a  (select),
-        .out(select_n)
+        .a(select),
+        .y(select_n)
     );
 
     and2 and2_0 (
-        .a  (a),
-        .b  (select),
-        .out(x)
+        .a(a),
+        .b(select),
+        .y(x)
     );
 
     and2 and2_1 (
-        .a  (b),
-        .b  (select_n),
-        .out(y)
+        .a(b),
+        .b(select_n),
+        .y(y)
     );
 
     or2 or2_0 (
-        .a  (x),
-        .b  (y),
-        .out(out)
+        .a(x),
+        .b(y),
+        .y(out)
     );
 
 endmodule

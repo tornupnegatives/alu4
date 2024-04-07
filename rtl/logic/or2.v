@@ -6,12 +6,12 @@
 module or2 (
     input  a,
     input  b,
-    output out
+    output y
 );
 
     not (a_n, a);
     not (b_n, b);
-    nand (out, a_n, b_n);
+    nand (y, a_n, b_n);
 
 endmodule
 

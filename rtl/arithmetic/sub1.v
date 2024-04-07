@@ -18,13 +18,13 @@ module sub1 (
     xor2 x0 (
         .a,
         .b,
-        .out(x)
+        .y(x)
     );
 
     xor2 x1 (
         .a(borrow_in),
         .b(x),
-        .out
+        .y(out)
     );
 
     ////////////////////////////////////////////////////////////////////////////
@@ -33,30 +33,30 @@ module sub1 (
 
     inv1 i0 (
         .a  (a),
-        .out(a_n)
+        .y(a_n)
     );
 
     and2 a0 (
         .a  (a_n),
         .b  (b),
-        .out(y)
+        .y(y)
     );
 
     inv1 i1 (
         .a  (x),
-        .out(x_n)
+        .y(x_n)
     );
 
     and2 a1 (
         .a  (x_n),
         .b  (borrow_in),
-        .out(z)
+        .y(z)
     );
 
     or2 o0 (
         .a  (y),
         .b  (z),
-        .out(borrow_out)
+        .y(borrow_out)
     );
 
 endmodule

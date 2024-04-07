@@ -6,13 +6,13 @@
 module xor2 (
     input  a,
     input  b,
-    output out
+    output y
 );
 
-    nand (x, a, b);
-    nand (y, a, x);
-    nand (z, x, b);
-    nand (out, y, z);
+    nand (stage_1, a, b);
+    nand (stage_2, a, stage_1);
+    nand (stage_3, stage_1, b);
+    nand (y, stage_2, stage_3);
 
 endmodule
 

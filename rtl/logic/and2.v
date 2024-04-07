@@ -6,10 +6,10 @@
 module and2 (
     input  a,
     input  b,
-    output out
+    output y
 );
 
-    and (out, a, b);
+    and (y, a, b);
 
 endmodule
 
