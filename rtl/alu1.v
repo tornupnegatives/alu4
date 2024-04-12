@@ -10,7 +10,7 @@ module alu1 (
 );
 
     ////////////////////////////////////////////////////////////////////////////
-    // LOGIC UNITS
+    // LOGIC UNIT
     ////////////////////////////////////////////////////////////////////////////
 
     and2 and2_ (
@@ -36,45 +36,34 @@ module alu1 (
         .y(xor_out)
     );
 
-    inv1 test_inv1_ (
-        .a(xor_out),
-        .y(test_out)
+    mux4 logic_unit_mux4 (
+        .in({and_out, or_out, xor_out, not_out}),
+        .select(select[1:0]),
+        .out(logic_unit_out)
     );
 
     ////////////////////////////////////////////////////////////////////////////
-    // ARITHMETIC UNITS
+    // ARITHMETIC UNIT
     ////////////////////////////////////////////////////////////////////////////
 
-    add1 add1_ (
+    arithmetic_unit arithmetic_unit_ (
         .a(a),
         .b(b),
         .carry_in(carry_in),
-        .out(add_out),
-        .carry_out(add_carry_out)
-    );
-
-    sub1 sub1_ (
-        .a(a),
-        .b(b),
-        .borrow_in(carry_in),
-        .out(sub_out),
-        .borrow_out(sub_borrow_out)
+        .operation(select[1:0]),
+        .out(arith_out),
+        .carry_out(carry_out)
     );
 
     ////////////////////////////////////////////////////////////////////////////
     // OUTPUT ROUTING
     ////////////////////////////////////////////////////////////////////////////
 
-    mux8 out_mux8_ (
-        .in({and_out, not_out, or_out, xor_out, add_out, sub_out, a, test_out}),
-        .select(select),
+    mux2 output_mux2 (
+        .a(logic_out),
+        .b(arith_out),
+        .select(select[2]),
         .out(out)
-    );
-
-    mux8 carry_mux8_ (
-        .in({4'b1111, add_carry_out, sub_borrow_out, 2'b0}),
-        .select(select),
-        .out(carry_out)
     );
 
 endmodule
