@@ -51,7 +51,7 @@ module alu1 (
         .b(b),
         .carry_in(carry_in),
         .operation(select[1:0]),
-        .out(arith_out),
+        .out(arith_unit_out),
         .carry_out(carry_out)
     );
 
@@ -60,8 +60,8 @@ module alu1 (
     ////////////////////////////////////////////////////////////////////////////
 
     mux2 output_mux2 (
-        .a(logic_out),
-        .b(arith_out),
+        .a(logic_unit_out),
+        .b(arith_unit_out),
         .select(select[2]),
         .out(out)
     );
