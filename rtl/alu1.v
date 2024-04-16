@@ -67,3 +67,4 @@ module alu1 (
     );
 
 endmodule
+`default_nettype none
