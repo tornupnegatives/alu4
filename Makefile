@@ -8,6 +8,11 @@ add1: rtl/arithmetic/*.v rtl/logic/*.v rtl/mux/*.v test/arithmetic/add1_tb.sv \
 	$(SIM) $(SIM_FLAGS) -o $(BUILD)/$@_test $^
 	./$(BUILD)/$@_test
 
+arithmetic_unit: rtl/arithmetic/*.v rtl/logic/*.v rtl/mux/*.v \
+	test/arithmetic/arithmetic_unit_tb.sv build
+	$(SIM) $(SIM_FLAGS) -o $(BUILD)/$@_test $^
+	./$(BUILD)/$@_test
+
 alu1: rtl/arithmetic/*.v rtl/logic/*.v rtl/mux/*.v rtl/alu1.v \
 	test/alu1_tb.sv build
 	$(SIM) $(SIM_FLAGS) -o $(BUILD)/$@_test $^

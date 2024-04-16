@@ -8,25 +8,46 @@ module alu1_tb;
     logic out;
     logic carry_out;
 
+    ///////////////////////////////////////////////////////////////////////////
+    // Testbench Setup
+    ///////////////////////////////////////////////////////////////////////////
+
     localparam integer DELAY = 5;
 
-    localparam integer AND = 0;
-    localparam integer NOT = 1;
-    localparam integer OR = 2;
-    localparam integer XOR = 3;
-    localparam integer ADD = 4;
-    localparam integer SUB = 5;
-    localparam integer TRANSFER = 6;
-    localparam integer TEST = 7;
+    // Map arithemtic opcodes to {select[1:0], carry_in}
+    localparam integer
+        TRANSFER = 0,
+        INCREMENT = 1,
+        ADD = 2,
+        ADD_INCREMENT = 3,
+        ADD_INVERT = 4,
+        SUBTRACT = 5,
+        DECREMENT = 6,
+        ADD_CARRY = 7;
+
+    // Map logical opcodes to select[2:0]
+    localparam integer
+        AND = 4,
+        OR = 5,
+        XOR = 6,
+        NOT = 7;
+
+    ///////////////////////////////////////////////////////////////////////////
+    // DUT Initialization
+    ///////////////////////////////////////////////////////////////////////////
 
     alu1 DUT (.*);
 
-    task automatic initialize;
+    initial begin: initialize;
         a = 0;
         b = 0;
         carry_in = 0;
         select = 0;
-    endtask
+    end: initialize
+
+    ///////////////////////////////////////////////////////////////////////////
+    // Logic Tests
+    ///////////////////////////////////////////////////////////////////////////
 
     task automatic test_and;
         input test_a;
@@ -104,23 +125,26 @@ module alu1_tb;
         else $fatal(1, "FAIL");
     endtask
 
-    task automatic test_add;
+    ///////////////////////////////////////////////////////////////////////////
+    // Arithmetic Tests
+    ///////////////////////////////////////////////////////////////////////////
+
+    task automatic test_transfer;
         input test_a;
         input test_b;
-        input test_carry;
         logic result;
         logic carry;
 
         a = test_a;
         b = test_b;
-        carry_in = test_carry;
-        {carry, result} = test_a + test_b + test_carry;
-        select = ADD;
+        {select, carry_in} = {1'b0, TRANSFER};
 
         #DELAY;
 
-        $display("ADD:\tA=%b\tB=%b\tC=%b\tOUT=%b\tCARRY=%b", test_a, test_b,
-                 test_carry, out, carry_out);
+        $display("TNS:\tA=%b\tB=%b\tOUT=%b\tCARRY=%b", test_a, test_b, out,
+            carry_out);
+
+        {carry, result} = a;
 
         assert (out === result)
         else $fatal(1, "FAIL");
@@ -129,63 +153,195 @@ module alu1_tb;
         else $fatal(1, "FAIL");
     endtask
 
-    task automatic test_sub;
+    task automatic test_increment;
         input test_a;
         input test_b;
-        input test_borrow;
         logic result;
-        logic borrow;
+        logic carry;
 
         a = test_a;
         b = test_b;
-        carry_in = test_borrow;
-        {borrow, result} = test_a - test_b - test_borrow;
-        select = SUB;
+        {select, carry_in} = {1'b0, INCREMENT};
 
         #DELAY;
 
-        $display("SUB:\tA=%b\tB=%b\tC=%b\tOUT=%b\tCARRY=%b", test_a, test_b,
-                 test_borrow, out, carry_out);
+        {carry, result} = a + 1;
+
+        $display("INC:\tA=%b\tB=%b\tOUT=%b\tCARRY=%b", test_a, test_b, out,
+            carry_out);
 
         assert (out === result)
         else $fatal(1, "FAIL");
 
-        assert (carry_out === borrow)
+        assert (carry_out === carry)
         else $fatal(1, "FAIL");
     endtask
 
-    task automatic test_transfer;
+    task automatic test_add;
         input test_a;
         input test_b;
-        input test_carry;
+        logic result;
+        logic carry;
 
-        select = TRANSFER;
+        a = test_a;
+        b = test_b;
+        {select, carry_in} = {1'b0, ADD};
+
         #DELAY;
 
-        $display("TNS:\tA=%b\tB=%b\tC=%b\tOUT=%b\tCARRY=%b", test_a, test_b,
-                 test_carry, out, carry_out);
+        {carry, result} = a + b;
 
-        assert (out === test_a)
+        $display("ADD:\tA=%b\tB=%b\tOUT=%b\tCARRY=%b", test_a, test_b, out,
+            carry_out);
+
+        assert (out === result)
+        else $fatal(1, "FAIL");
+
+        assert (carry_out === carry)
         else $fatal(1, "FAIL");
     endtask
 
-    task automatic test_test;
+    task automatic test_add_increment;
         input test_a;
         input test_b;
-        input test_carry;
+        logic result;
+        logic carry;
 
-        select = TEST;
+        a = test_a;
+        b = test_b;
+        {select, carry_in} = {1'b0, ADD_INCREMENT};
+
         #DELAY;
 
-        $display("TST:\tA=%b\tB=%b\tC=%b\tOUT=%b\tCARRY=%b", test_a, test_b,
-                 test_carry, out, carry_out);
+        {carry, result} = a + b + 1;
 
-        assert (out === (test_a == test_b))
+        $display("AIC:\tA=%b\tB=%b\tOUT=%b\tCARRY=%b", test_a, test_b, out,
+            carry_out);
+
+        assert (out === result)
+        else $fatal(1, "FAIL");
+
+        assert (carry_out === carry)
         else $fatal(1, "FAIL");
     endtask
 
-    initial begin
-        initialize();
+    task automatic test_add_invert;
+        input test_a;
+        input test_b;
+        logic result;
+        logic carry;
+
+        a = test_a;
+        b = test_b;
+        {select, carry_in} = {1'b0, ADD_INVERT};
+
+        #DELAY;
+
+        {carry, result} = a + !b;
+
+        $display("AIV:\tA=%b\tB=%b\tOUT=%b\tCARRY=%b", test_a, test_b, out,
+            carry_out);
+
+        assert (out === result)
+        else $fatal(1, "FAIL");
+
+        assert (carry_out === carry)
+        else $fatal(1, "FAIL");
+    endtask
+
+    task automatic test_subtract;
+        input test_a;
+        input test_b;
+        logic result;
+        logic carry;
+
+        a = test_a;
+        b = test_b;
+        {select, carry_in} = {1'b0, SUBTRACT};
+
+        #DELAY;
+
+        {carry, result} = a + !b + 1;
+
+        $display("SUB:\tA=%b\tB=%b\tOUT=%b\tCARRY=%b", test_a, test_b, out,
+            carry_out);
+
+        assert (out === result)
+        else $fatal(1, "FAIL");
+
+        assert (carry_out === carry)
+        else $fatal(1, "FAIL");
+    endtask
+
+    task automatic test_decrement;
+        input test_a;
+        input test_b;
+        logic result;
+        logic carry;
+
+        a = test_a;
+        b = test_b;
+        {select, carry_in} = {1'b0, DECREMENT};
+
+        #DELAY;
+
+        {carry, result} = a + 1;
+
+        $display("DEC:\tA=%b\tB=%b\tOUT=%b\tCARRY=%b", test_a, test_b, out,
+            carry_out);
+
+        assert (out === result)
+        else $fatal(1, "FAIL");
+
+        assert (carry_out === carry)
+        else $fatal(1, "FAIL");
+    endtask
+
+    task automatic test_add_carry;
+        input test_a;
+        input test_b;
+        logic result;
+        logic carry;
+
+        a = test_a;
+        b = test_b;
+        {select, carry_in} = {1'b0, ADD_CARRY};
+
+        #DELAY;
+
+        {carry, result} = a + 1 + 1;
+
+        $display("ADC:\tA=%b\tB=%b\tOUT=%b\tCARRY=%b", test_a, test_b, out,
+            carry_out);
+
+        assert (out === result)
+        else $fatal(1, "FAIL");
+
+        assert (carry_out === carry)
+        else $fatal(1, "FAIL");
+    endtask
+
+    ///////////////////////////////////////////////////////////////////////////
+    // Testbench Sequence
+    ///////////////////////////////////////////////////////////////////////////
+
+    initial begin: main
+        $display("---- Arithemtic");
+
+        for (integer i = 0; i < 2; i++) begin
+            for (integer j = 0; j < 2; j++) begin
+                    test_transfer(i, j);
+                    test_increment(i, j);
+                    test_add(i, j);
+                    test_add_increment(i, j);
+                    test_add_invert(i, j);
+                    test_subtract(i, j);
+                    test_decrement(i, j);
+                    test_add_carry(i, j);
+            end
+        end
+
+        $display("\n---- Logic Tests");
 
         for (integer i = 0; i < 2; i++) begin
             for (integer j = 0; j < 2; j++) begin
@@ -194,14 +350,10 @@ module alu1_tb;
                     test_or(i, j, k);
                     test_xor(i, j, k);
                     test_not(i, j, k);
-                    test_add(i, j, k);
-                    test_sub(i, j, k);
-                    test_transfer(i, j, k);
-                    test_test(i, j, k);
                 end
             end
         end
 
         $finish;
-    end
+    end: main
 endmodule
