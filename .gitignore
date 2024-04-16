@@ -5,10 +5,10 @@
 *.swp
 
 # Cadence
-cad/*.log
-cad/*.history
-cad/*.cdslck
-cad/*.state
+*.log
+*.history
+*.cdslck
+*.state
 cad/lvs/
 cad/drc/
 cad/.cadence/
