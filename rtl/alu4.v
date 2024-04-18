@@ -4,6 +4,7 @@ module alu4 (
     input [3:0] a,
     input [3:0] b,
     input [2:0] select,
+    input carry_in,
     output [3:0] out,
     output carry_out
 );
@@ -11,7 +12,7 @@ module alu4 (
 alu1 a0(
     .a(a[0]),
     .b(b[0]),
-    .carry_in(1'b0),
+    .carry_in(carry_in),
     .select(select),
     .out(out[0]),
     .carry_out(carry_out0)

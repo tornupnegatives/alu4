@@ -18,6 +18,12 @@ alu1: rtl/arithmetic/*.v rtl/logic/*.v rtl/mux/*.v rtl/alu1.v \
 	$(SIM) $(SIM_FLAGS) -o $(BUILD)/$@_test $^
 	./$(BUILD)/$@_test
 
+alu4: rtl/arithmetic/*.v rtl/logic/*.v rtl/mux/*.v rtl/alu1.v \
+	rtl/alu4.v test/alu4_tb.sv build
+	$(SIM) $(SIM_FLAGS) -o $(BUILD)/$@_test $^
+	./$(BUILD)/$@_test
+
+
 build:
 	mkdir -p $(BUILD)
 
