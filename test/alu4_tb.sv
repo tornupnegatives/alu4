@@ -230,6 +230,7 @@ module alu1_tb;
         input [3:0] test_b;
         logic [3:0] result;
         logic carry;
+        logic [3:0] b_n;
 
         a = test_a;
         b = test_b;
@@ -237,7 +238,8 @@ module alu1_tb;
 
         #DELAY;
 
-        {carry, result} = a + ~b;
+        b_n = ~b;
+        {carry, result} = a + b_n;
 
         $display("AIV:\tA=%b\tB=%b\tOUT=%b\tCARRY=%b", test_a, test_b, out,
             carry_out);
@@ -254,6 +256,7 @@ module alu1_tb;
         input [3:0] test_b;
         logic [3:0] result;
         logic carry;
+        logic [3:0] b_n;
 
         a = test_a;
         b = test_b;
@@ -261,7 +264,8 @@ module alu1_tb;
 
         #DELAY;
 
-        {carry, result} = a + ~b + 1;
+        b_n = ~b;
+        {carry, result} = a + b_n + 1;
 
         $display("SUB:\tA=%b\tB=%b\tOUT=%b\tCARRY=%b", test_a, test_b, out,
             carry_out);
@@ -285,7 +289,7 @@ module alu1_tb;
 
         #DELAY;
 
-        {carry, result} = a - 1;
+        {carry, result} = a + 4'hf;
 
         $display("DEC:\tA=%b\tB=%b\tOUT=%b\tCARRY=%b", test_a, test_b, out,
             carry_out);
@@ -309,7 +313,7 @@ module alu1_tb;
 
         #DELAY;
 
-        {carry, result} = a + 1 + 1;
+        {carry, result} = a + 4'hf + 1;
 
         $display("ADC:\tA=%b\tB=%b\tOUT=%b\tCARRY=%b", test_a, test_b, out,
             carry_out);
