@@ -38,8 +38,8 @@ module add1 (
     );
 
     and2 a1 (
-        .a(x),
-        .b(carry_in),
+        .a(carry_in),
+        .b(x),
         .y(z)
     );
 
