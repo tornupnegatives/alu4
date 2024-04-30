@@ -10,3 +10,11 @@ on the development machine.
 $ make test_alu
 ```
 
+## Repository Structure
+
+| Directory | Description               |
+| --------- | ------------------------- |
+| cad       | Virtuoso design files     |
+| rtl       | Verilog RTL               |
+| test      | SystemVerilog testbenches |
+
