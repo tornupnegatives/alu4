@@ -18,3 +18,5 @@ $ make test_alu
 | rtl       | Verilog RTL               |
 | test      | SystemVerilog testbenches |
 
+## Top level:
+cad/std_cells/alu4 contains the final design
